@@ -17,4 +17,9 @@
     <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
   </li>
 </ul>
+<button (click)="onClickGetGamepads()">GetGamepads</button>
+<button (click)="onClickMostrarControles()">Monitorar teclas</button>
+<button (click)="stopListenningKeys()">Parar</button>
+<app-gps3 #gps3>
+</app-gps3>
 
